@@ -1,0 +1,96 @@
+
+nav.navbar{
+  	border-radius: 0;
+  	background-color: #102639;
+  	border: 0px solid white;
+	padding: 20px 0;
+	margin:0; 
+}
+.navbar-brand{
+	/*border:1px solid red;*/
+	margin:0;
+	padding: 0;
+}
+ul.menu li a{
+	color:white !important;
+	width: 100%;
+	/*background: yellow;*/
+}
+ul.menu li a:hover{
+	color:#67ADE8  !important;
+	/*background-color:#67ADE8  !important;*/
+}
+
+ul.menu li ul a{
+	color:white !important;
+}
+
+.opt-list{
+	margin-top: 0px;
+	position: relative;
+}
+
+
+
+
+/* Overides de media querys  tomará el style hasta que llegue a ese minimo */
+@media only screen and (min-width : 480px) {
+  body{
+    /*background-color: red;*/
+  }
+  
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+   body{
+   /* background-color: yellow;*/
+  }
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   body{
+    /*background-color: blue;*/
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+   body{
+   /* background-color: peru;*/
+  }
+	 nav.navbar{
+	  	border-radius: 0;
+	  	background-color: #102639;
+	  	border: 0px solid white;
+		padding: 20px 0;
+		margin:0; 
+	}
+	.navbar-brand{
+		/*border:1px solid red;*/
+		margin:0;
+		padding: 0;
+	}
+	ul.menu li a{
+		color:white !important;
+		width: 100%;
+		/*background: yellow;*/
+	}
+	ul.menu li a:hover{
+		color:#67ADE8  !important;
+		/*background-color:#67ADE8  !important;*/
+	}
+
+	ul.menu li ul a{
+		color:white !important;
+	}
+	.opt-list{
+		background-color:white;
+		border:1px solid red;
+		margin-top: -70px;
+		position: relative;
+	}
+}
