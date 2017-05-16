@@ -56,11 +56,14 @@
 .slider-attr{
     position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:400px;overflow:hidden;visibility:hidden;}
 .slider--cont-slide{
-    cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;
+    cursor:default;position:relative;top:0px;left:0px;width:1300px;height:400px;overflow:hidden;
 } 
 .arrow-left{
     top:0px;left:8px;width:40px;height:58px;
 }
 .arrow-right{
     top:0px;right:8px;width:40px;height:58px;
+}
+.slider-content{
+    border:3px solid #7C0E2D;
 }

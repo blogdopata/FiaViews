@@ -26,13 +26,17 @@ ul.menu li ul a{
 }
 /* ---------- Items option ------ */ 
 .opt-list{
-	margin-top: 0px;
+	margin-top: 20px;
 	position: relative;
+	
 }
 .option{
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
 	text-align: center;
-	padding: 40px 0;
+	
 }
+
 
 /* ---------- Items option ------ */ 
 
@@ -61,9 +65,9 @@ ul.menu li ul a{
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-image: url("../img/bk-agenda.png") ; 
-	
 	background-position: center;
 	background-size: cover;
+	padding: 15px 0;
 	
 }
 .color-text, a.color-text:hover{
@@ -136,7 +140,9 @@ h1{
   body{
     /*background-color: red;*/
   }
-  
+  .option{
+  	margin-bottom: 30px;
+  }
 
 }
 
@@ -145,7 +151,14 @@ h1{
    body{
    /* background-color: yellow;*/
   }
- 
+  .opt-list{
+  	margin-top: 20px;
+  }
+ .option{
+	
+	margin:30px 10px 10px 10px;
+	width:150px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -153,6 +166,12 @@ h1{
    body{
     /*background-color: blue;*/
   }
+	.option{
+	
+	margin:30px 10px 10px 10px;
+	width: 200px;
+}
+
 }
 
 /* Large Devices, Wide Screens */
@@ -186,13 +205,24 @@ h1{
 		color:white !important;
 	}
 	.opt-list{
-		background-color:white;
+		background-color:;
 		/*border:1px solid red;*/
 		margin-top: -70px;
 		position: relative;
-	}
+
+	}	
+	.option{
+	text-align: center;
+	padding: 40px 0;
+	background-color: white;
+	margin:0 30px;
+	width: 225px;
+
+}
+	/* Seteando grilla*/ 
 	.navbar-collapse{
-	border: 0;
-	margin-top: 0px;
+		border: 0;
+		margin-top: 0px;
 	}
+	/* Fin seteo Grilla */
 }
