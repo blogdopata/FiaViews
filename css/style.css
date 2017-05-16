@@ -24,13 +24,111 @@ ul.menu li a:hover{
 ul.menu li ul a{
 	color:white !important;
 }
-
+/* ---------- Items option ------ */ 
 .opt-list{
 	margin-top: 0px;
 	position: relative;
 }
+.option{
+	text-align: center;
+	padding: 40px 0;
+}
+
+/* ---------- Items option ------ */ 
 
 
+/* ---------- Noticias  ------ */ 
+.noticias{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.more-small{
+	font-size: 16px;
+}
+.btn-noticias{
+	background-color: #7C0E2D;
+	border:1px solid #7C0E2D;
+}
+.btn-noticias:hover{
+	background-color: #102639;
+	color: white;
+}
+/* ---------- Fin Noticias ------ */ 
+
+
+/* -----------Agenda -------------*/
+.bk-agenda{
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-image: url("../img/bk-agenda.png") ; 
+	
+	background-position: center;
+	background-size: cover;
+	
+}
+.color-text, a.color-text:hover{
+	color: white;
+}
+.bk-footer{
+	background-color: #1A384B;
+
+}
+.footer-list , .footer-list--inline{
+	list-style: none;
+	/*border: 1px solid red;*/
+	padding: 0;
+
+
+}
+.footer-list a{
+	color:white;
+}
+.footer-list--inline{
+	margin: 0 20px;
+}
+.footer-list--inline li{
+	display: inline-block;
+	margin: 0 10px;	
+}
+
+/* ---------- 	FIN Agenda -------------*/
+/*  ---------- Utilitariios---------- */
+.maxWidth{
+	width: 100%;
+}
+/*  ---------- FIN Utilitariios---------- */
+/* -------- Overrides Grilla --------- */ 
+
+.navbar-collapse{
+	border: 0;
+	margin-top: 10px;
+
+}
+.row{
+	padding: 0;
+	margin:0;
+}
+.col-pad{
+	padding: 0 ;
+}
+.sp-age{
+	font-size: 46px;font-weight: bold;
+}
+.sp-fec{
+	font-size: 22px;font-weight: bold;
+}
+.name-agenda{
+	padding-left: 5px;
+	border-left:3px solid white;
+	height:90px
+}
+h1{
+	padding: 0 ;
+	margin:0;
+}
+
+
+/* -------- FIn override Grilla -------- */
 
 
 /* Overides de media querys  tomará el style hasta que llegue a ese minimo */
@@ -89,8 +187,12 @@ ul.menu li ul a{
 	}
 	.opt-list{
 		background-color:white;
-		border:1px solid red;
+		/*border:1px solid red;*/
 		margin-top: -70px;
 		position: relative;
+	}
+	.navbar-collapse{
+	border: 0;
+	margin-top: 0px;
 	}
 }

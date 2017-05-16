@@ -52,4 +52,15 @@
         .jssora22r.jssora22rdn { background-position: -310px -31px; }
         .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
         .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
-    </style>
+
+.slider-attr{
+    position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:400px;overflow:hidden;visibility:hidden;}
+.slider--cont-slide{
+    cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;
+} 
+.arrow-left{
+    top:0px;left:8px;width:40px;height:58px;
+}
+.arrow-right{
+    top:0px;right:8px;width:40px;height:58px;
+}
