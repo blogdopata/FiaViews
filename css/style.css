@@ -1,5 +1,5 @@
-
-nav.navbar{
+/* OVERRIDE FROM Boostrap library */
+nav.my-menu{
   	border-radius: 0;
   	background-color: #102639;
   	border: 0px solid white;
@@ -24,6 +24,8 @@ ul.menu li a:hover{
 ul.menu li ul a{
 	color:white !important;
 }
+/* FIN OVERRIDE FROM Boostrap library */
+
 /* ---------- Items option ------ */ 
 .opt-list{
 	margin-top: 20px;
@@ -39,6 +41,36 @@ ul.menu li ul a{
 
 
 /* ---------- Items option ------ */ 
+
+				/*------- Item: Facultadad sub Menu ----------*/
+
+/* ----sub Menu-------*/
+.submenu{
+	background-color: #fff;
+	margin:0;
+}
+.contentCenter{
+	/*border:1px solid red;*/
+	width: 100%;
+	margin:0 auto;
+
+}
+.submenu ul li a{
+	color:#102639 !important;
+	font-weight: bold;
+}
+.submenu ul li a:hover{
+	color:#7C0E2D !important;
+}
+
+.bk-deca{
+	background-color: #daecfa;
+	padding: 30px 0;
+}
+/*-------Fin sub menu  ----- */
+
+
+
 
 
 /* ---------- Noticias  ------ */ 
@@ -101,7 +133,7 @@ ul.menu li ul a{
 	width: 100%;
 }
 /*  ---------- FIN Utilitariios---------- */
-/* -------- Overrides Grilla --------- */ 
+/* -------- Override Grilla --------- */ 
 
 .navbar-collapse{
 	border: 0;
@@ -159,6 +191,12 @@ h1{
 	margin:30px 10px 10px 10px;
 	width:150px;
 }
+	.contentCenter{
+	/*border:1px solid red;*/
+	width: 800px;
+	margin:0 auto;
+
+}
 }
 
 /* Medium Devices, Desktops */
@@ -179,7 +217,7 @@ h1{
    body{
    /* background-color: peru;*/
   }
-	 nav.navbar{
+	 nav.my-menu{
 	  	border-radius: 0;
 	  	background-color: #102639;
 	  	border: 0px solid white;
